@@ -1,0 +1,143 @@
+<ion-nav-bar class="bar bar-header bar-calm">
+	<ion-nav-back-button>
+	</ion-nav-back-button>
+</ion-nav-bar>
+
+<!--<script id="templates/tabs.html" type="text/ng-template">
+	<ion-tabs class="tabs-icon-top tabs-calm">
+
+		<ion-tab title="Student" icon="ion-ios-person" href="#/tab/student">
+			<ion-nav-view name="student-tab"></ion-nav-view>
+		</ion-tab>
+
+		<ion-tab title="Professor" icon="ion-ios-body" href="#/tab/professor">
+			<ion-nav-view name="professor-tab"></ion-nav-view>
+		</ion-tab>
+
+	</ion-tabs>
+</script>-->
+
+	<ion-view view-title="Create Account | Student">
+		<ion-content>
+			<center>
+				<img src="img/logo.png" id="loginLogo"/>
+			</center>
+			
+			<form>
+				<div class="row">
+					<div class="col col-50">
+						<div class="list">
+							<label class="item item-input item-stacked-label">
+								<span class="input-label">Student No.:</span>
+								<input type="number" placeholder="Student Number" id="studno" ng-model="info.studno">
+							</label>
+
+							<label class="item item-input item-stacked-label">
+								<span class="input-label">Firstname:</span>
+								<input type="text" placeholder="Firstname" id="fname" ng-model="info.fname">
+							</label>
+
+							<label class="item item-input item-stacked-label">
+								<span class="input-label">Lastname:</span>
+								<input type="text" placeholder="Lastname" id="lname" ng-model="info.lname">
+							</label>
+
+							<label class="item item-input item-stacked-label">
+								<span class="input-label">Course:</span>
+								<input type="text" placeholder="Course" id="course" ng-model="info.course">
+							</label>
+
+							<label class="item item-input item-stacked-label">
+								<span class="input-label">College:</span>
+								<input type="text" placeholder="College" id="college" ng-model="info.college">
+							</label>
+
+							<label class="item item-input item-stacked-label">
+								<span class="input-label">Contact no.:</span>
+								<input type="number" placeholder="Contact Number" id="contact_no" ng-model="info.contactno">
+							</label>
+
+							<label class="item item-input item-stacked-label">
+								<span class="input-label">NEU Email:</span>
+								<input type="email" placeholder="fmlastname@neu.edu.ph" id="email" ng-model="info.email">
+							</label>
+
+							<label class="item item-input item-stacked-label">
+								<span class="input-label">Password:</span>
+								<input type="password" placeholder="Password" id="pwd" ng-model="info.password">
+							</label>
+
+							<label class="item item-input item-stacked-label">
+								<span class="input-label">Confirm Password:</span>
+								<input type="password" placeholder="Repeat Password" id="rpwd" ng-model="info.repassword">
+							</label>                  
+
+						</div> <!-- end list -->
+					</div> <!-- end col -->
+
+					<div class="col col-50">
+						<div class="list">
+							<label class="item item-input item-stacked-label">
+								<span class="input-label">Company Name:</span>
+								<input type="text" placeholder="Company Name" id="company_name" ng-model="info.compname">
+							</label>
+
+							<label class="item item-input item-stacked-label">
+								<span class="input-label">Address:</span>
+								<input type="text" placeholder="Company Address" id="company_address" ng-model="info.compadd">
+							</label>
+
+							<label class="item item-input item-stacked-label">
+								<span class="input-label">Department:</span>
+								<input type="text" placeholder="Department Assigned" id="dept_assigned" ng-model="info.deptass">
+							</label>
+
+							<label class="item item-input item-stacked-label">
+								<span class="input-label">Contact Person:</span>
+								<input type="text" placeholder="Contact Person" id="contact_person" ng-model="info.conperson">
+							</label>
+
+							<label class="item item-input item-stacked-label">
+								<span class="input-label">Contact no.: </span>
+								<input type="number" placeholder="Contact Person's Contact no." id="cp_contact_no" ng-model="info.cpcontactno">
+							</label>
+
+							<label class="item item-input item-stacked-label">
+								<span class="input-label">Email:</span>
+								<input type="email" placeholder="Contact Person's Email" id="cp_email" ng-model="info.cpemail">
+							</label>
+
+							<label class="item item-input item-stacked-label">
+								<span class="input-label">Training Period (Start Date)</span>
+								<input type="date" id="start_date" ng-model="info.startdate">
+							</label>
+
+							<label class="item item-input item-stacked-label">
+								<span class="input-label">Training Period (End Date)</span>
+								<input type="date" id="end_date" ng-model="info.enddate">
+							</label>
+
+							<label class="item item-input item-stacked-label">
+								<span class="input-label">Hours Required</span>
+								<input type="number" placeholder="Total OJT Hours Required" id="hours_required" ng-model="info.hoursrequired">
+							</label>
+						</div>
+					</div>  
+				</div>
+
+				<button class="button button-block button-outline button-calm">
+					Submit
+				</button>
+			</form>
+		</ion-content>
+	</ion-view>
+
+<!--<script id="templates/about.html" type="text/ng-template">
+	<ion-view view-title="Create Account | Professor">
+		<ion-content>
+			<center>
+				<img src="img/logo1.png" id="loginLogo"/>
+			</center>
+		</ion-content>
+	</ion-view>
+</script>-->

@@ -1,0 +1,27 @@
+body
+{
+	font-family: Century Gothic;
+}
+#loginForm
+{
+	padding-top: 25px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+#loginLogo
+{
+	height: 250px;
+	padding-top: 40px;
+	max-width: 100%;
+}
+#navTeamLogo
+{
+	height: 50px;
+	width: 50px;
+	padding-left: 3px;
+	padding-bottom: 13px;
+}
+#hrCreate
+{
+	float: right;
+}
